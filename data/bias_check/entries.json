@@ -1,0 +1,3752 @@
+[
+  {
+    "id": "e0000",
+    "sentence": "Dems, Voting Rights Groups Bash Plan To Cut Polling Sites In Texas County.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901518+00:00"
+  },
+  {
+    "id": "e0001",
+    "sentence": "Biden\u2019s praetorian guard in the media now feigns concern about presidential fitness.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901541+00:00"
+  },
+  {
+    "id": "e0002",
+    "sentence": "Iran retaliates against US forces after American strikes in key oil route and more top headlines.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901549+00:00"
+  },
+  {
+    "id": "e0003",
+    "sentence": "Diya Isha At the start-up I worked for, I was judged not by my ability to be a good reader but by my capacity to become one with a machine.",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901555+00:00"
+  },
+  {
+    "id": "e0004",
+    "sentence": "Once a village, now barren land - BBC in the valley devastated by floods.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901561+00:00"
+  },
+  {
+    "id": "e0005",
+    "sentence": "Democratic socialism could cost the US a staggering $200 trillion, report reveals: \u2018Closer to Soviet-style communism\u2019.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901569+00:00"
+  },
+  {
+    "id": "e0006",
+    "sentence": "Paranoid Putin\u2019s Humiliating Defeat Confession Is Leaked.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901576+00:00"
+  },
+  {
+    "id": "e0007",
+    "sentence": "Moulton vs. Markey: Voters weigh generational change (video).",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901581+00:00"
+  },
+  {
+    "id": "e0008",
+    "sentence": "There is only so much Treasury Secretary Scott Bessent can accomplish by clever maneuvers to ease its associated costs and vulnerabilities.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901587+00:00"
+  },
+  {
+    "id": "e0009",
+    "sentence": "Morocco not to blame for Ceuta border breach, says Spanish PM.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901593+00:00"
+  },
+  {
+    "id": "e0010",
+    "sentence": "Lake Ontario now called Lake America on Google Maps for U.S. users after Trump ordered name change.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901599+00:00"
+  },
+  {
+    "id": "e0011",
+    "sentence": "Stop calling Iran a \u2018forever war.\u2019 It\u2019s a pressure cooker about to blow.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901606+00:00"
+  },
+  {
+    "id": "e0012",
+    "sentence": "\u201cLocal control\u201d of data centers is a Big Tech con.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901612+00:00"
+  },
+  {
+    "id": "e0013",
+    "sentence": "U.S. and Iran trade strikes for the first time in a month.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901618+00:00"
+  },
+  {
+    "id": "e0014",
+    "sentence": "U.S. Strikes Iranian Launchers Set to Mine Hormuz, IRGC Vows \u2018Severe Repercussions\u2019.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901625+00:00"
+  },
+  {
+    "id": "e0015",
+    "sentence": "I Want to Take a Trip for My Milestone Birthday. But I Want to Leave Two Important Family Members Off the Invite List.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901631+00:00"
+  },
+  {
+    "id": "e0016",
+    "sentence": "Nepal-Tibet flood death toll surpasses 900, officials say, more than 4,700 missing.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901637+00:00"
+  },
+  {
+    "id": "e0017",
+    "sentence": "Blue State Moves To Recognize Islamic Holiday Celebrating Ritual Slaughter.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901642+00:00"
+  },
+  {
+    "id": "e0018",
+    "sentence": "The Singular Triumph of Driving Down Peanut Allergies.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901648+00:00"
+  },
+  {
+    "id": "e0019",
+    "sentence": "U.S., Venezuela strike oil deal. And, the staggering hidden toll of U.S. heat deaths.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901654+00:00"
+  },
+  {
+    "id": "e0020",
+    "sentence": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901661+00:00"
+  },
+  {
+    "id": "e0021",
+    "sentence": "Trump Opens a New Front in His War on Journalism\u2014Over Just Two Words.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901668+00:00"
+  },
+  {
+    "id": "e0022",
+    "sentence": "I told you this was coming.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901674+00:00"
+  },
+  {
+    "id": "e0023",
+    "sentence": "The Democratic Socialists of America are pushing for a federal government spending spree that could top $200 trillion over the next decade.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901681+00:00"
+  },
+  {
+    "id": "e0024",
+    "sentence": "Meet the \u201cintellectual super influencers\u201d of the new right.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901688+00:00"
+  },
+  {
+    "id": "e0025",
+    "sentence": "The BBC reports from Sano Barkhu, a village overlooking the town of Syfrubesi, which was destroyed by the Nepal flooding.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901695+00:00"
+  },
+  {
+    "id": "e0026",
+    "sentence": "Escalating interest payments have brought our day of reckoning into view.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901701+00:00"
+  },
+  {
+    "id": "e0027",
+    "sentence": "County officials claim the plan would save resources, but Democrats say the reductions could create confusion in the November midterm elections.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901708+00:00"
+  },
+  {
+    "id": "e0028",
+    "sentence": "Ed Markey has been in Congress since before primary-race challenger Seth Moulton was born.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901715+00:00"
+  },
+  {
+    "id": "e0029",
+    "sentence": "Public frustration over the so-called \u201cforever war\u201d with Iran is growing.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901723+00:00"
+  },
+  {
+    "id": "e0030",
+    "sentence": "The post Confessions of an AI Editor appeared first on The Nation .",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901730+00:00"
+  },
+  {
+    "id": "e0031",
+    "sentence": "Google said in a blog post that the decision was based on its practice of using names assigned by the U.S.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901737+00:00"
+  },
+  {
+    "id": "e0032",
+    "sentence": "Strikes Iranian Launchers Set to Mine Hormuz, IRGC Vows \u2018Severe Repercussions\u2019 appeared first on Breitbart .",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901746+00:00"
+  },
+  {
+    "id": "e0033",
+    "sentence": "Vladimir Putin fears for his life if he can\u2019t achieve his basic goal in Ukraine, according to a new report.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901764+00:00"
+  },
+  {
+    "id": "e0034",
+    "sentence": "Iran says it targeted U.S. bases in Jordan after CENTCOM announced strikes on rocket launchers on an Iranian island in the Strait of Hormuz.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901772+00:00"
+  },
+  {
+    "id": "e0035",
+    "sentence": "A bill designating Eid al-Fitr and Eid al-Adha as official California state holidays is nearing final passage, with the state Senate expected to vote before the legislative session ends this week.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901780+00:00"
+  },
+  {
+    "id": "e0036",
+    "sentence": "As many as 141 people are thought to have died trying to enter the Spanish enclave at the end of July.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901787+00:00"
+  },
+  {
+    "id": "e0037",
+    "sentence": "The death toll from last week's flash flooding disaster in the Nepal-Tibet border region rose to at least 919 people as of Monday.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901795+00:00"
+  },
+  {
+    "id": "e0038",
+    "sentence": "SEN CHUCK GRASSLEY: Republicans are making America safer by restoring law and order.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901802+00:00"
+  },
+  {
+    "id": "e0039",
+    "sentence": "Texas and Georgia races show voters are finally sick of MAGA corruption.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901810+00:00"
+  },
+  {
+    "id": "e0040",
+    "sentence": "The U.S. and Venezuela have entered into an oil deal.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901819+00:00"
+  },
+  {
+    "id": "e0041",
+    "sentence": "Luxe NYC venue hijacks public plaza under iconic bridge to rake in up to $300K a pop using shocking enforcers: suit.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901828+00:00"
+  },
+  {
+    "id": "e0042",
+    "sentence": "Someone needs to put their foot down.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901835+00:00"
+  },
+  {
+    "id": "e0043",
+    "sentence": "GOP soul-searching for life after Trump is ramping up.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901842+00:00"
+  },
+  {
+    "id": "e0044",
+    "sentence": "We saw it in how she tried to live her life.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901850+00:00"
+  },
+  {
+    "id": "e0045",
+    "sentence": "When pediatricians issued new advice about peanuts, parents listened.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901865+00:00"
+  },
+  {
+    "id": "e0046",
+    "sentence": "Early release scheme could see dangerous criminals released, Conservatives warn.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901872+00:00"
+  },
+  {
+    "id": "e0047",
+    "sentence": "To many Americans, the crisis feels like a terminal loop.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901880+00:00"
+  },
+  {
+    "id": "e0048",
+    "sentence": "New Report: Hegseth\u2019s Own Military Brass Warn the Iran War Is Unsustainable.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901896+00:00"
+  },
+  {
+    "id": "e0049",
+    "sentence": "Our video report looks at generational tension in the midterms.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901904+00:00"
+  },
+  {
+    "id": "e0050",
+    "sentence": "Iran\u2019s \u2018Supreme Leader\u2019 Khamenei Calls for Gulf Unity, Confront \u2018Real Enemy\u2019 U.S., Israel.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901913+00:00"
+  },
+  {
+    "id": "e0051",
+    "sentence": "Aaron Renn was in a good mood.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901921+00:00"
+  },
+  {
+    "id": "e0052",
+    "sentence": "Geographic Names Information System, also known as GNIS.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901929+00:00"
+  },
+  {
+    "id": "e0053",
+    "sentence": "Assembly Bill 2017, authored by Assemblymember Matt Haney (D-San Francisco) and co-authored by Sen.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901937+00:00"
+  },
+  {
+    "id": "e0054",
+    "sentence": "Mike Johnson's 'Crazy People' Comment Gets Paired With Wildly-Timed Trump Clip.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901952+00:00"
+  },
+  {
+    "id": "e0055",
+    "sentence": "1 dead, about 15 missing after Grand Canyon hit by flash floods.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901961+00:00"
+  },
+  {
+    "id": "e0056",
+    "sentence": "Murder and robbery declined roughly 20% as the 119th Congress advanced border security, law enforcement funding and a bipartisan crime package.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901969+00:00"
+  },
+  {
+    "id": "e0057",
+    "sentence": "The Lesson of META\u2019s Defeat? Release the Tort Lawyers!",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901978+00:00"
+  },
+  {
+    "id": "e0058",
+    "sentence": "Urgent search for missing people underway in Grand Canyon after deadly flash flooding.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901987+00:00"
+  },
+  {
+    "id": "e0059",
+    "sentence": "Swanky Guastavino\u2019s venue illegally seized a public plaza for a decade, charging up to $300,000 per event, a new lawsuit claims.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.901998+00:00"
+  },
+  {
+    "id": "e0060",
+    "sentence": "The Russian dictator , 73, is under increasing pressure to deliver results on his \u201cspecial military operation\u201d after nearly five years of increasingly attritional warfare that has cost hundreds of thousands of lives.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902011+00:00"
+  },
+  {
+    "id": "e0061",
+    "sentence": "And, NPR spent two years tracking heat-related deaths and found that people in the U.S. are dying from heat more than the official counts show.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902020+00:00"
+  },
+  {
+    "id": "e0062",
+    "sentence": "Being a little more Dolly could help us all.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902029+00:00"
+  },
+  {
+    "id": "e0063",
+    "sentence": "The influx of about 70,000 men, women and children unleashed a political crisis, a humanitarian emergency and reignited tensions over immigration within the EU .",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902038+00:00"
+  },
+  {
+    "id": "e0064",
+    "sentence": "Trump hails NASA\u2019s space telescope launch.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902048+00:00"
+  },
+  {
+    "id": "e0065",
+    "sentence": "We see an endless cycle of missile exchanges, disrupted shipping, and diplomatic chess matches.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902057+00:00"
+  },
+  {
+    "id": "e0066",
+    "sentence": "Just say no to Trump \u2014 the drug, that is.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902066+00:00"
+  },
+  {
+    "id": "e0067",
+    "sentence": "The warning comes after the prime minister said some prisoners serving indefinite sentences could be freed to increase prison capacity.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902096+00:00"
+  },
+  {
+    "id": "e0068",
+    "sentence": "The post Iran\u2019s \u2018Supreme Leader\u2019 Khamenei Calls for Gulf Unity, Confront \u2018Real Enemy\u2019 U.S., Israel appeared first on Breitbart .",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902109+00:00"
+  },
+  {
+    "id": "e0069",
+    "sentence": "Slate SoundBites for August 31, 2026.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902118+00:00"
+  },
+  {
+    "id": "e0070",
+    "sentence": "Hong Kong\u2019s indie bookstores come under scrutiny amid a broader crackdown on dissent.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902128+00:00"
+  },
+  {
+    "id": "e0071",
+    "sentence": "Aisha Wahab, would add the two Islamic holy days to ...",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902138+00:00"
+  },
+  {
+    "id": "e0072",
+    "sentence": "Why have vaccine recommendations met with so much more resistance?",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902147+00:00"
+  },
+  {
+    "id": "e0073",
+    "sentence": "U.S. plans to sanction another bank in effort to clamp down on Iran transactions, Bessent tells AP.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902157+00:00"
+  },
+  {
+    "id": "e0074",
+    "sentence": "Vulnerable Dem's own audit admits Medicaid oversight failure amid massive statewide fraud scandal.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902167+00:00"
+  },
+  {
+    "id": "e0075",
+    "sentence": "Defense Secretary Pete Hegseth\u2019s top military brass has now privately warned him directly: His war in Iran is unsustainable and is draining America\u2019s ability to defend itself from threats elsewhere\u2014and at home.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902183+00:00"
+  },
+  {
+    "id": "e0076",
+    "sentence": "Violent flash floods hit the Grand Canyon's Bright Angel Canyon and Phantom Ranch area, the National Park Service said, leaving more than a dozen people missing.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902193+00:00"
+  },
+  {
+    "id": "e0077",
+    "sentence": "Trump posts AI-generated video of Iran\u2019s Kharg Island \u2018blown to smithereens\u2019 hours after first US strikes in a month.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902205+00:00"
+  },
+  {
+    "id": "e0078",
+    "sentence": "And that was fair: It\u2019s not every day that you get labeled the No.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902216+00:00"
+  },
+  {
+    "id": "e0079",
+    "sentence": "Djokovic loses in opening round of US Open for first time, falling to Navone.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902226+00:00"
+  },
+  {
+    "id": "e0080",
+    "sentence": "Jeanne Allen\u2019s Important New Book Profiles Everyday Heroes of Education.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902237+00:00"
+  },
+  {
+    "id": "e0081",
+    "sentence": "While the House Speaker was talking about Democrats, a video of the president inadvertently flipped Johnson\u2019s message upside down.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902249+00:00"
+  },
+  {
+    "id": "e0082",
+    "sentence": "Russia's jet-powered drones bring empty Kyiv supermarket shelves and rattle Ukrainians.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902259+00:00"
+  },
+  {
+    "id": "e0083",
+    "sentence": "Decades of containment have left voters deeply cynical.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902269+00:00"
+  },
+  {
+    "id": "e0084",
+    "sentence": "Elie Mystal In this week\u2019s Elie v.",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902279+00:00"
+  },
+  {
+    "id": "e0085",
+    "sentence": "Approximately 15 people may be missing after Grand Canyon flash flood: Parks service.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902325+00:00"
+  },
+  {
+    "id": "e0086",
+    "sentence": "Hillary Clinton's Search for Intern with 'High Level' of 'Discretion' Draws Mockery: 'Who the Hell Would Sign Up for That Job?'.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902387+00:00"
+  },
+  {
+    "id": "e0087",
+    "sentence": "He is reported by The Economist to have confided in his closest goons that \u201cThey\u2019ll hang me\u201d if he can\u2019t fully conquer the entire Donbas region in the east of Ukraine.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902414+00:00"
+  },
+  {
+    "id": "e0088",
+    "sentence": "Dolly Parton laid to rest alongside husband in Nashville.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902428+00:00"
+  },
+  {
+    "id": "e0089",
+    "sentence": "As Lindsay Clancy Jury Deliberates, Another Killer Mom Walks Free On Insanity Plea.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902442+00:00"
+  },
+  {
+    "id": "e0090",
+    "sentence": "People fleeing Sudan civil war face \u2018dire and deteriorating\u2019 conditions in refuge city.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902460+00:00"
+  },
+  {
+    "id": "e0091",
+    "sentence": "Independent bookstores in Hong Kong offer a window for mainland Chinese readers who seek ideas suppressed at home.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902475+00:00"
+  },
+  {
+    "id": "e0092",
+    "sentence": "Matt Dunlap's office acknowledged a significant deficiency in tracking MaineCare payments as J.D.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902489+00:00"
+  },
+  {
+    "id": "e0093",
+    "sentence": "Trump\u2019s answer to bad press? \u201cFCC TO THE RESCUE!\u201d.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902506+00:00"
+  },
+  {
+    "id": "e0094",
+    "sentence": "\"This is going to be financial violence if we have to,\" Bessent said in the interview.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902521+00:00"
+  },
+  {
+    "id": "e0095",
+    "sentence": "Donald Trump posted an AI video showing Iran's Kharg Island destroyed, hours after real US airstrikes hit rocket launchers on Larak Island.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902536+00:00"
+  },
+  {
+    "id": "e0096",
+    "sentence": "Build your answer from the sound up with our new game, SoundBites!",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902550+00:00"
+  },
+  {
+    "id": "e0097",
+    "sentence": "House returns with vote expected on Senate bill to prevent shutdown.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902564+00:00"
+  },
+  {
+    "id": "e0098",
+    "sentence": "The author knows intimately that many of the people making a substantive difference deserve capes.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902579+00:00"
+  },
+  {
+    "id": "e0099",
+    "sentence": "How the Right Could Actually End Birthright Citizenship.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902592+00:00"
+  },
+  {
+    "id": "e0100",
+    "sentence": "WATCH:  This deli manager motivates kids for school.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902606+00:00"
+  },
+  {
+    "id": "e0101",
+    "sentence": "Rubio stays off campaign trail as Trump Cabinet rallies behind Republicans.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902621+00:00"
+  },
+  {
+    "id": "e0102",
+    "sentence": "Google\u2019s Obedience to Trump\u2019s \u201cLake America\u201d Order Follows a Depressing Pattern.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902637+00:00"
+  },
+  {
+    "id": "e0103",
+    "sentence": "Russian forces relentlessly battered Kyiv and cities in the region around the Ukrainian capital for a fifth straight day, leaving some supermarket shelves bare after repeated strikes on warehouses.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902654+00:00"
+  },
+  {
+    "id": "e0104",
+    "sentence": "Failed 2016 presidential candidate Hillary Clinton's search for an intern has drawn criticism because she wants someone who can keep their mouth shut.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902671+00:00"
+  },
+  {
+    "id": "e0105",
+    "sentence": "1 \u201cintellectual super influencer\u201d for a major swath of the Trump-era right. \u201cIt\u2019s always good to have some independent validation of your work,\u201d he told me.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902691+00:00"
+  },
+  {
+    "id": "e0106",
+    "sentence": "Approximately 15 people may be missing or unaccounted for after a significant flash flood occurred in the Grand Canyon, the National Parks Service (NPS) said Sunday.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902708+00:00"
+  },
+  {
+    "id": "e0107",
+    "sentence": "While jurors consider the case of Massachusetts mother Lindsay Clancy, a New York City judge has found another mother \u2014 who also killed her children \u2014 not guilty by reason of mental disease or defect.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902733+00:00"
+  },
+  {
+    "id": "e0108",
+    "sentence": "Ted Cruz Coyly Responds To Questions About A 2028 Presidential Run.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902749+00:00"
+  },
+  {
+    "id": "e0109",
+    "sentence": "A private family funeral is held for the singer who died on Tuesday at the age of 80.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902765+00:00"
+  },
+  {
+    "id": "e0110",
+    "sentence": "Vance calls Maine a fraud capital of America.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902780+00:00"
+  },
+  {
+    "id": "e0111",
+    "sentence": "U.S. , our justice correspondent explains why tort lawyers are our next, best regulatory hope.",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902795+00:00"
+  },
+  {
+    "id": "e0112",
+    "sentence": "But these shops are under threat following a wave of bookseller arrests under a 2024 national security law.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902811+00:00"
+  },
+  {
+    "id": "e0113",
+    "sentence": "Dems push Hochul to block staggering 72% tax rate slapped on NYC\u2019s first full casino.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902827+00:00"
+  },
+  {
+    "id": "e0114",
+    "sentence": "Read more at The Daily Beast.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902842+00:00"
+  },
+  {
+    "id": "e0115",
+    "sentence": "Why Republicans are focusing on transgender issues in competitive 2026 campaigns.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902858+00:00"
+  },
+  {
+    "id": "e0116",
+    "sentence": "In the Age of AI, What Should Schools Teach?",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902873+00:00"
+  },
+  {
+    "id": "e0117",
+    "sentence": "The UN says more than 15,000 families have arrived since mid-July, joining more than 200,000 people who arrived in the first half of the year, according to government figures cited by Save the Children.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902891+00:00"
+  },
+  {
+    "id": "e0118",
+    "sentence": "Lawmakers could also vote on condemning socialism and censuring GOP Rep.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902908+00:00"
+  },
+  {
+    "id": "e0119",
+    "sentence": "Top Trump officials have fanned out across the country to rally behind Republican candidates with just 64 days to go before the midterm elections, but one notable surrogate has been absent: Secretary of State Marco Rubio.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902928+00:00"
+  },
+  {
+    "id": "e0120",
+    "sentence": "Grand jury: DeSantis admin misused $10M.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902946+00:00"
+  },
+  {
+    "id": "e0121",
+    "sentence": "ABC News' Danny New talks to New York City bodega owner Wail Alselwi, who has been rewarding students' good grades with cash prizes and free rein to pick anything from his store.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902965+00:00"
+  },
+  {
+    "id": "e0122",
+    "sentence": "The post Hillary Clinton\u2019s Search for Intern with \u2018High Level\u2019 of \u2018Discretion\u2019 Draws Mockery: \u2018Who the Hell Would Sign Up for That Job?\u2019 appeared first on Breitbart .",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.902988+00:00"
+  },
+  {
+    "id": "e0123",
+    "sentence": "Our Adult Son Has Made Some Baffling Life Decisions. The Result Is That He\u2019s Broke in His 50s.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903007+00:00"
+  },
+  {
+    "id": "e0124",
+    "sentence": "Attacks flare between U.S., Iran after month-long pause.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903042+00:00"
+  },
+  {
+    "id": "e0125",
+    "sentence": "Dimone Fleming, now 26, had repeatedly stabbed her sons \u2014 Octavius Canada, 11 months, and Daishawn Fleming, 3 \u2014 before ...",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903175+00:00"
+  },
+  {
+    "id": "e0126",
+    "sentence": "The conservative legal movement doesn\u2019t consider the Supreme Court\u2019s recent ruling to be the final word on the Fourteenth Amendment.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903206+00:00"
+  },
+  {
+    "id": "e0127",
+    "sentence": "The flood ripped through Bright Angel Canyon and the Phantom Ranch area on Saturday, the Grand Canyon National Park\u2019s communications office said in a release.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903229+00:00"
+  },
+  {
+    "id": "e0128",
+    "sentence": "Dietitian reveals simple eating strategy for better sleep \u2014 and one habit to avoid.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903249+00:00"
+  },
+  {
+    "id": "e0129",
+    "sentence": "If you\u2019re a Google Map user in the United States, you\u2019ll now see the name \u201cLake America\u201d instead of \u201cLake Ontario,\u201d just days after President Trump\u2019s executive order renaming the body of water amid his ongoing trade war with Canada.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903274+00:00"
+  },
+  {
+    "id": "e0130",
+    "sentence": "US and Iran trade strikes for first time in weeks.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903292+00:00"
+  },
+  {
+    "id": "e0131",
+    "sentence": "\"The governor's office has to step in and resolve this issue.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903308+00:00"
+  },
+  {
+    "id": "e0132",
+    "sentence": "You\u2019re a people pleaser? Here\u2019s how to not lose yourself.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903327+00:00"
+  },
+  {
+    "id": "e0133",
+    "sentence": "Hungary faces EU deadline to show it can root out corruption and transform.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903437+00:00"
+  },
+  {
+    "id": "e0134",
+    "sentence": "To prepare young people for an AI world, schools must return to the past.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903482+00:00"
+  },
+  {
+    "id": "e0135",
+    "sentence": "The Texas senator also promoted his efforts to help fellow conservatives win in the midterms.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903503+00:00"
+  },
+  {
+    "id": "e0136",
+    "sentence": "Campaign ads in several midterm elections portray Democrats as \"radical\" on transgender youth medical care and sports participation.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903523+00:00"
+  },
+  {
+    "id": "e0137",
+    "sentence": "America is out of money, out of forever wars, and done apologizing.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903540+00:00"
+  },
+  {
+    "id": "e0138",
+    "sentence": "Plus, the other legend who died this week.",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903558+00:00"
+  },
+  {
+    "id": "e0139",
+    "sentence": "Nepal on high alert for fresh flooding as death toll rises past 900.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903577+00:00"
+  },
+  {
+    "id": "e0140",
+    "sentence": "Lawsuit: Elon Musk's xAI Trained Grok AI Using Child Pornography.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903596+00:00"
+  },
+  {
+    "id": "e0141",
+    "sentence": "Dolly Parton\u2019s Sister Shares Heartbreaking Message After Funeral.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903618+00:00"
+  },
+  {
+    "id": "e0142",
+    "sentence": "The legacy of Dolly Parton lives on not only through her music, but through the eyes of young readers heading back to school, thanks to Dolly's Imagination Library.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903640+00:00"
+  },
+  {
+    "id": "e0143",
+    "sentence": "The Policy Loophole Putting The Brakes On America\u2019s Housing Supply.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903662+00:00"
+  },
+  {
+    "id": "e0144",
+    "sentence": "Egyptian queen\u2019s 673-diamond necklace stolen in Vienna smash-and-grab raid.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903684+00:00"
+  },
+  {
+    "id": "e0145",
+    "sentence": "Why too many women are prescribed antibiotics for UTIs they don't have.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903705+00:00"
+  },
+  {
+    "id": "e0146",
+    "sentence": "Tart cherry juice tops a dietitian's list of sleep-boosting foods, with its natural melatonin content shown to improve both sleep quality and quantity.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903727+00:00"
+  },
+  {
+    "id": "e0147",
+    "sentence": "Crocodile dumplings and kangaroo on a train Down Under.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903752+00:00"
+  },
+  {
+    "id": "e0148",
+    "sentence": "State Department official says about 85 Americans still missing after Nepal flash flooding.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903772+00:00"
+  },
+  {
+    "id": "e0149",
+    "sentence": "Jalen Brunson turns 30: Knicks hero opens up to The Post about his next chapter, fatherhood and how long he wants to play.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "labeled": true,
+    "created_at": "2026-08-31T11:26:11.903794+00:00"
+  },
+  {
+    "id": "e0150",
+    "sentence": "My Wife and I Agreed to Temporarily Take in Her Sister\u2019s Dog. Now I Want to Do Something \u201cCruel.\u201d.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903816+00:00"
+  },
+  {
+    "id": "e0151",
+    "sentence": "The attack on Larak Island in the Strait of Hormuz - the first known US strike since late July - has killed two people and injured two others.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903838+00:00"
+  },
+  {
+    "id": "e0152",
+    "sentence": "If You Thought California\u2019s High-Speed-Rail Idea Was Insane . . .",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903860+00:00"
+  },
+  {
+    "id": "e0153",
+    "sentence": "And it already has a playbook for overturning it.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903881+00:00"
+  },
+  {
+    "id": "e0154",
+    "sentence": "31 to complete more than two dozen \u201cmilestones\u201d in the rule of law.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903902+00:00"
+  },
+  {
+    "id": "e0155",
+    "sentence": "In 1776, a congress of colonials declared they had had enough of kings and priests claiming divine right over their lives.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903922+00:00"
+  },
+  {
+    "id": "e0156",
+    "sentence": "Just How Ridiculously, Hellishly Hot Are New York City\u2019s Subways? Jack Can Tell You.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903946+00:00"
+  },
+  {
+    "id": "e0157",
+    "sentence": "Republicans are leaning on a strategy that proved successful in 2024.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903968+00:00"
+  },
+  {
+    "id": "e0158",
+    "sentence": "The post Lawsuit: Elon Musk\u2019s xAI Trained Grok AI Using Child Pornography appeared first on Breitbart .",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.903991+00:00"
+  },
+  {
+    "id": "e0159",
+    "sentence": "Shayla Love here, science journalist and longtime fan of Your Mileage May Vary.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904011+00:00"
+  },
+  {
+    "id": "e0160",
+    "sentence": "More than 3,000 people are still missing after catastrophic flash floods hit following a glacial collapse high in the Himalayan region.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904033+00:00"
+  },
+  {
+    "id": "e0161",
+    "sentence": "America\u2019s housing crisis has a tax problem hiding in plain sight.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904056+00:00"
+  },
+  {
+    "id": "e0162",
+    "sentence": "Rep. Jim Clyburn: Impeaching Trump Should Not Be A Priority For Democrats.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904076+00:00"
+  },
+  {
+    "id": "e0163",
+    "sentence": "WATCH:  Divers save the day for bride-to-be.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904096+00:00"
+  },
+  {
+    "id": "e0164",
+    "sentence": "Trey McKinney becomes youngest Bassmaster Angler of the Year at 21, breaking Kevin VanDam's record.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904116+00:00"
+  },
+  {
+    "id": "e0165",
+    "sentence": "The post The Lesson of META\u2019s Defeat?",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904172+00:00"
+  },
+  {
+    "id": "e0166",
+    "sentence": "A recent study found that many women treated for recurrent UTIs didn't have UTIs at all.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904203+00:00"
+  },
+  {
+    "id": "e0167",
+    "sentence": "In an exclusive interview with The Post, Jalen Brunson, who turned 30 on Monday, opens up about his next chapter after leading the Knicks to their first championship in 53 years.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904233+00:00"
+  },
+  {
+    "id": "e0168",
+    "sentence": "Freida Parton has broken her silence on her sister Dolly\u2019s death , sharing a poignant and heartbreaking message about the late country legend .",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904261+00:00"
+  },
+  {
+    "id": "e0169",
+    "sentence": "There are approximately 85 Americans still missing after flash flooding on the border of Nepal and Tibet, State Department spokesman Tommy Pigott said Sunday. \u201cThis morning, I can say we now have 85 Americans, approximately, that are unaccounted for.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904298+00:00"
+  },
+  {
+    "id": "e0170",
+    "sentence": ". . . wait until you hear about its tire regs.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904324+00:00"
+  },
+  {
+    "id": "e0171",
+    "sentence": "Authorities in the capital released pictures of the suspects captured by security cameras during the heist at the Museum of Applied Arts (MAK), amid a rash of spectacular smash-and-grab thefts from European cultural institutions.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904344+00:00"
+  },
+  {
+    "id": "e0172",
+    "sentence": "South African airline defends low-altitude aerial stunt over packed stadium.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904361+00:00"
+  },
+  {
+    "id": "e0173",
+    "sentence": "Rights come from the Creator, governments exist by consent, and their purpose is to secure life, liberty, and the pursuit of happiness.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904379+00:00"
+  },
+  {
+    "id": "e0174",
+    "sentence": "Don\u2019t trust the name on the\u00a0PAC.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904397+00:00"
+  },
+  {
+    "id": "e0175",
+    "sentence": "Without meeting them, the country risks losing crucial funding.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904416+00:00"
+  },
+  {
+    "id": "e0176",
+    "sentence": "Former Iraqi Official Honored by Biden Admin Placed on Terror Watch List, Has Visa Revoked.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904432+00:00"
+  },
+  {
+    "id": "e0177",
+    "sentence": "Our Mother Has Secretly Made Our Brother Her Power of Attorney. He\u2019s Making Some Really Big Mistakes.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904452+00:00"
+  },
+  {
+    "id": "e0178",
+    "sentence": "U.S. strikes Iranian rocket launchers on the Strait of Hormuz in first military action in weeks.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904469+00:00"
+  },
+  {
+    "id": "e0179",
+    "sentence": "Home prices have risen 53% since 2019 while median household income has risen only 24%.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904486+00:00"
+  },
+  {
+    "id": "e0180",
+    "sentence": "The World Is Telling the Wrong Story About China.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904502+00:00"
+  },
+  {
+    "id": "e0181",
+    "sentence": "U.S. military strikes Iranian targets in first military action in a month.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904519+00:00"
+  },
+  {
+    "id": "e0182",
+    "sentence": "Lawrence River tournament, but Trey McKinney stole the show as the youngest Angler of the Year in Bassmaster history at 21.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904538+00:00"
+  },
+  {
+    "id": "e0183",
+    "sentence": "This story was originally published by the Guardian and is reproduced here as part of the Climate Desk collaboration.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904555+00:00"
+  },
+  {
+    "id": "e0184",
+    "sentence": "A group of divers from the Hudson Valley Commercial Diving School happened to be at the restaurant where Denise Rivera dropped her engagement ring into the Hudson River.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904572+00:00"
+  },
+  {
+    "id": "e0185",
+    "sentence": "The biggest myths about a common women\u2019s condition \u2014 and why it\u2019s so difficult to diagnose.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904591+00:00"
+  },
+  {
+    "id": "e0186",
+    "sentence": "I\u2019m honored to be subbing for Sigal Samuel while she\u2019s out on parental leave.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904610+00:00"
+  },
+  {
+    "id": "e0187",
+    "sentence": "Instead, their symptoms were caused by hormonally driven inflammation and pelvic floor dysfunction.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904629+00:00"
+  },
+  {
+    "id": "e0188",
+    "sentence": "Anti-Trumpism Is Driving the Media to Cheer Hostile Powers.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904646+00:00"
+  },
+  {
+    "id": "e0189",
+    "sentence": "The South Carolina lawmaker also explained what he believes should be the party\u2019s top priority after the midterms.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904665+00:00"
+  },
+  {
+    "id": "e0190",
+    "sentence": "US strikes Iranian rocket launchers in first attack since late July.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904681+00:00"
+  },
+  {
+    "id": "e0191",
+    "sentence": "From 9/11 to Iran: Trump just speedran Bush\u2019s biggest mistake.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904700+00:00"
+  },
+  {
+    "id": "e0192",
+    "sentence": "Release the Tort Lawyers! appeared first on The Nation .",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904717+00:00"
+  },
+  {
+    "id": "e0193",
+    "sentence": "Airlink says the manoeuvre with two planes in close formation involved careful and precise planning.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904735+00:00"
+  },
+  {
+    "id": "e0194",
+    "sentence": "A former Iraqi official, who was honored and received an award under the Biden administration, has been placed on the United States government's \"Terror Watchlist\" and had her visa revoked, according to multiple reports.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904753+00:00"
+  },
+  {
+    "id": "e0195",
+    "sentence": "Freida, 69, shared a long tribute to Dolly, who died last week at 80 after a short battle with cancer .",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904771+00:00"
+  },
+  {
+    "id": "e0196",
+    "sentence": "Cities pilot \u2018rest in red\u2019 program that rewards good drivers with green lights.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904790+00:00"
+  },
+  {
+    "id": "e0197",
+    "sentence": "Affordable inventory remains constrained, leaving home sales depressed.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904807+00:00"
+  },
+  {
+    "id": "e0198",
+    "sentence": "What could Meta\u2019s US settlement mean around the world \u2013 and what now for other claims against firm?",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904826+00:00"
+  },
+  {
+    "id": "e0199",
+    "sentence": "The fighting comes just days after the Trump administration said it would turn its focus to increasing economic pressure \u2014 rather than military action \u2014 to try to end its war with Iran.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904852+00:00"
+  },
+  {
+    "id": "e0200",
+    "sentence": "Caitlin Clark and Angel Reese must now work together at Women's World Cup as WNBA takes a high-stakes break.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904873+00:00"
+  },
+  {
+    "id": "e0201",
+    "sentence": "It\u2019s critical that you see \u201cCoyote vs. Acme\u201d.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904893+00:00"
+  },
+  {
+    "id": "e0202",
+    "sentence": "As the war passes the six-month mark, neither side showed any sign of backing down.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904911+00:00"
+  },
+  {
+    "id": "e0203",
+    "sentence": "Polyendocrine metabolic ovarian syndrome (PMOS), formerly known as polycystic ovary syndrome (PCOS), is a complex condition involving multiple interconnected body systems with symptoms that extend well beyond the ovaries and fertility.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904930+00:00"
+  },
+  {
+    "id": "e0204",
+    "sentence": "My Ex-Girlfriend\u2019s Parents Wanted Her to Leave Our Small Town and Make It Big. I Was the Enemy. Now They\u2019ve Realized Their Mistake.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904949+00:00"
+  },
+  {
+    "id": "e0205",
+    "sentence": "WATCH:  Woman alleges she was ejected from mountain coaster in Colorado.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904966+00:00"
+  },
+  {
+    "id": "e0206",
+    "sentence": "The enemy of your enemy is sometimes still the greater enemy.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.904986+00:00"
+  },
+  {
+    "id": "e0207",
+    "sentence": "The country\u2019s \u201cstability\u201d hides a host of problems.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905005+00:00"
+  },
+  {
+    "id": "e0208",
+    "sentence": "Singapore is scrambling to stabilize birthrates. Experts say there are lessons for the U.S.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905023+00:00"
+  },
+  {
+    "id": "e0209",
+    "sentence": "As we approach the 25th anniversary of 9/11, isn\u2019t it time we learned the lessons of history?",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905043+00:00"
+  },
+  {
+    "id": "e0210",
+    "sentence": "Wyoming\u2019s Primaries Were a Preview of Trump\u2019s Midterm Interference.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905063+00:00"
+  },
+  {
+    "id": "e0211",
+    "sentence": "The U.S. military struck two Iranian rocket launchers on Sunday, marking its first attack on the Middle Eastern country in more than a month, with Iran reportedly retaliating later in the day.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905083+00:00"
+  },
+  {
+    "id": "e0212",
+    "sentence": "The post Former Iraqi Official Honored by Biden Admin Placed on Terror Watch List, Has Visa Revoked appeared first on Breitbart .",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905102+00:00"
+  },
+  {
+    "id": "e0213",
+    "sentence": "I\u2019m diving into your questions as a way to help understand human nature and our choices through multiple lenses: philosophical, psychological, and beyond.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905124+00:00"
+  },
+  {
+    "id": "e0214",
+    "sentence": "The mystery of why so many black Britons still can't swim.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905143+00:00"
+  },
+  {
+    "id": "e0215",
+    "sentence": "Higher mortgage rates have made affordable homes harder to find.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905161+00:00"
+  },
+  {
+    "id": "e0216",
+    "sentence": "Trump Dances, Kicks Down Lake Ontario Sign In Bizarre AI Video.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905181+00:00"
+  },
+  {
+    "id": "e0217",
+    "sentence": "On some streets in Albuquerque, New Mexico and Portland, Oregon, traffic signals default to red until a vehicle approaches.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905201+00:00"
+  },
+  {
+    "id": "e0218",
+    "sentence": "Caitlin Clark and Angel Reese must unite as teammates in Berlin as the U.S. defends a 30-game win streak at the Women's Basketball World Cup.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905222+00:00"
+  },
+  {
+    "id": "e0219",
+    "sentence": "Steve Brodner At home with ICE.",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905241+00:00"
+  },
+  {
+    "id": "e0220",
+    "sentence": "Olivia Rodrigo's festival unites women and girls behind nonprofits promoting their well-being.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905260+00:00"
+  },
+  {
+    "id": "e0221",
+    "sentence": "Long Island Dems locked in civil war as members accuse chairman of backroom deals with GOP.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905280+00:00"
+  },
+  {
+    "id": "e0222",
+    "sentence": "The legendary singer\u2019s younger sister began by saying, \u201cThank you all for bearing with me as I mourn the death of my big sister.\u201d Read more at The Daily Beast.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905303+00:00"
+  },
+  {
+    "id": "e0223",
+    "sentence": "Nicol\u00e1s Maduro shares photos from New York prison: \"We are standing firm\".",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905324+00:00"
+  },
+  {
+    "id": "e0224",
+    "sentence": "Khalid Sheikh Mohammed Faces Trial . . . Soon . . . Probably.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905343+00:00"
+  },
+  {
+    "id": "e0225",
+    "sentence": "This was in the middle of the country\u2019s civil war.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905364+00:00"
+  },
+  {
+    "id": "e0226",
+    "sentence": "A woman alleges she was thrown from her seat, dragged along the tracks and seriously injured as a result.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905384+00:00"
+  },
+  {
+    "id": "e0227",
+    "sentence": "From Vietnam to 9/11, the War on Terror, and now Iran, America never seems to understand what ought to be obvious conclusions about its actions: that superior military power and overconfidence don\u2019t guarantee victory.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905407+00:00"
+  },
+  {
+    "id": "e0228",
+    "sentence": "Fans pushed to put Dolly\u2019s name on Nashville\u2019s airport.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905428+00:00"
+  },
+  {
+    "id": "e0229",
+    "sentence": "Singapore has unveiled a national initiative built entirely around its collapsing birthrate.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905448+00:00"
+  },
+  {
+    "id": "e0230",
+    "sentence": "Report: Officials Fielded Thousands of Food Safety Violations by Illegal Street Vendors But Now Do Nothing.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905467+00:00"
+  },
+  {
+    "id": "e0231",
+    "sentence": "I don't know how to feel.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905487+00:00"
+  },
+  {
+    "id": "e0232",
+    "sentence": "DHS denies reports of torture, beatings and medical neglect in ICE detention.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905507+00:00"
+  },
+  {
+    "id": "e0233",
+    "sentence": "According to Realtor.com data, the number of homes listed for sale that are affordable ...",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905527+00:00"
+  },
+  {
+    "id": "e0234",
+    "sentence": "The Measles-Stricken Mother Who Lost Her Newborn Son.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905547+00:00"
+  },
+  {
+    "id": "e0235",
+    "sentence": "For decades, swimming ability has been lower in the black community.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905568+00:00"
+  },
+  {
+    "id": "e0236",
+    "sentence": "Amazon makes Alexa+ free on compatible Fire TVs.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905588+00:00"
+  },
+  {
+    "id": "e0237",
+    "sentence": "Wyoming\u2019s governor is speaking out about what he calls \u201caggressive\u201d and \u201cirregular\u201d behavior on the part of Department of Justice employees sent to monitor the state\u2019s August 18 primary elections.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905611+00:00"
+  },
+  {
+    "id": "e0238",
+    "sentence": "If drivers stay at or below the speed limit, they get an earlier green light.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905631+00:00"
+  },
+  {
+    "id": "e0239",
+    "sentence": "Party members claim Rich Schaffer, the incumbent party chairman for the Suffolk Dems, secretly sabotaged their candidates to protect Republicans.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905654+00:00"
+  },
+  {
+    "id": "e0240",
+    "sentence": "Your loneliness is big business for these startups.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905675+00:00"
+  },
+  {
+    "id": "e0241",
+    "sentence": "All-star benefit concerts have proven popular for driving millions of dollars toward everything from refugee relief to pandemic response.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905695+00:00"
+  },
+  {
+    "id": "e0242",
+    "sentence": "Life, Liberty, and a Laugh Track.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905715+00:00"
+  },
+  {
+    "id": "e0243",
+    "sentence": "Trump Spirals Out Over NBC's Kristen Welker Comments On 'Mixed' Endorsement Record.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905736+00:00"
+  },
+  {
+    "id": "e0244",
+    "sentence": "In the two photographs, Venezuela's deposed leader Nicol\u00e1s Maduro is wearing a gray tracksuit and making peace signs with his hands.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905759+00:00"
+  },
+  {
+    "id": "e0245",
+    "sentence": "Socialism polls better than it performs.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905779+00:00"
+  },
+  {
+    "id": "e0246",
+    "sentence": "The post The Amazing Canada-Man appeared first on The Nation .",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905800+00:00"
+  },
+  {
+    "id": "e0247",
+    "sentence": "WATCH:  International manhunt for alleged diamond thieves: Police.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905823+00:00"
+  },
+  {
+    "id": "e0248",
+    "sentence": "The post Report: Officials Fielded Thousands of Food Safety Violations by Illegal Street Vendors But Now Do Nothing appeared first on Breitbart .",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905846+00:00"
+  },
+  {
+    "id": "e0249",
+    "sentence": "Republicans Hit With Ominous \u2018Historic Losses\u2019 Warning.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905869+00:00"
+  },
+  {
+    "id": "e0250",
+    "sentence": "Some demographers say the plan includes policy ideas that could help American parents.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905891+00:00"
+  },
+  {
+    "id": "e0251",
+    "sentence": "Why AI Doomers Have It All Wrong.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905914+00:00"
+  },
+  {
+    "id": "e0252",
+    "sentence": "For weeks, Facebook\u2019s algorithm had actively promoted posts calling for the academic to be murdered, according to Meareg and Foxglove, a nonprofit organisation supporting Meareg\u2019s lawsuit against the company in Kenya.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905940+00:00"
+  },
+  {
+    "id": "e0253",
+    "sentence": "Markey trounces Moulton in Massachusetts Senate primary poll.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905963+00:00"
+  },
+  {
+    "id": "e0254",
+    "sentence": "Amazon's Alexa+ rolls out free to Fire TV devices across the U.S., but hands-free microphones and stored voice data raise key privacy questions.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.905986+00:00"
+  },
+  {
+    "id": "e0255",
+    "sentence": "Seneca Nation fights Trump\u2019s \u201cLake America\u201d rename.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906009+00:00"
+  },
+  {
+    "id": "e0256",
+    "sentence": "Djokovic in tears during US Open first-round exit.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906031+00:00"
+  },
+  {
+    "id": "e0257",
+    "sentence": "Why NYC murders and shootings fell so sharply \u2014 and how we can slash other crimes, too.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906056+00:00"
+  },
+  {
+    "id": "e0258",
+    "sentence": "What Is the English Equivalent to the French Expression Fait Accompli ?",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906079+00:00"
+  },
+  {
+    "id": "e0259",
+    "sentence": "The strategy seems to be working.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906101+00:00"
+  },
+  {
+    "id": "e0260",
+    "sentence": "Fixing a failed 1992 sitcom set during the Founding.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906124+00:00"
+  },
+  {
+    "id": "e0261",
+    "sentence": "The family at the center of Pennsylvania\u2019s measles controversy tells their story.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906148+00:00"
+  },
+  {
+    "id": "e0262",
+    "sentence": "But it's been decades since a young artist with Rodrigo's following brought her peers together for gender justice.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906171+00:00"
+  },
+  {
+    "id": "e0263",
+    "sentence": "Nearly 6 in 10 Democrats view socialism positively while less than a third say the same of capitalism, according to a new CBS News/YouGov poll.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906194+00:00"
+  },
+  {
+    "id": "e0264",
+    "sentence": "The two election monitors were sent as part of a \u201cmonitoring initiative aimed at promoting transparency,\u201d according to a DOJ press release.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906220+00:00"
+  },
+  {
+    "id": "e0265",
+    "sentence": "ICE sends Afghans and others to Africa, expanding \"third country\" deportations.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906244+00:00"
+  },
+  {
+    "id": "e0266",
+    "sentence": "Clyburn: SCOTUS Seeking to Return to Dred Scott Era When 'No Black Man Has Any Rights that a White Man Must Respect'.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906268+00:00"
+  },
+  {
+    "id": "e0267",
+    "sentence": "Over the years, Julianne Holt-Lunstad has fielded many requests from startups looking for her help.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906296+00:00"
+  },
+  {
+    "id": "e0268",
+    "sentence": "Two men allegedly stole a 200-carat diamond necklace that once belonged to Egyptian royalty from a museum in Vienna.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906320+00:00"
+  },
+  {
+    "id": "e0269",
+    "sentence": "You don\u2019t have to worry about a future where AI takes over your job, your privacy, and your independent thought.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906346+00:00"
+  },
+  {
+    "id": "e0270",
+    "sentence": "The president fumed at Welker while boasting about his track record in a Sunday morning Truth Social screed.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906370+00:00"
+  },
+  {
+    "id": "e0271",
+    "sentence": "Hit shows from Edinburgh's Fringe festival are coming to America. Here are our top picks.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906393+00:00"
+  },
+  {
+    "id": "e0272",
+    "sentence": "'Jesus was a radical': Progressives invoke Christ to sell left-wing agenda on campaign trail.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906418+00:00"
+  },
+  {
+    "id": "e0273",
+    "sentence": "How Many Fascist Cronies Can One Republican Have?",
+    "outlet": "TheNation",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906441+00:00"
+  },
+  {
+    "id": "e0274",
+    "sentence": "Ed Markey (D-Mass.) is handily leading Rep.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906463+00:00"
+  },
+  {
+    "id": "e0275",
+    "sentence": "The NYPD announced the fewest shootings and murders recorded through July in New York City\u2019s history.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906488+00:00"
+  },
+  {
+    "id": "e0276",
+    "sentence": "Republicans are being warned of \u201chistoric losses\u201d in the midterms, with a new polling aggregate showing the party trailing in eight major battleground Senate races just two months before voters head to the polls.",
+    "outlet": "TheDailyBeast",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906514+00:00"
+  },
+  {
+    "id": "e0277",
+    "sentence": "An emotional Novak Djokovic suffers a US Open first-round defeat which provides further evidence that age is catching up with the 39-year-old great.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906538+00:00"
+  },
+  {
+    "id": "e0278",
+    "sentence": "Europe\u2019s Misguided Plans for Pursuing Digital Independence.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906562+00:00"
+  },
+  {
+    "id": "e0279",
+    "sentence": "These posts included photos of his father and his home address.",
+    "outlet": "TheGuardian",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906585+00:00"
+  },
+  {
+    "id": "e0280",
+    "sentence": "\u2018I\u2019m so grateful.\u2019 Diners relish high-end food on Pay What You Can day.",
+    "outlet": "ChristianScienceMonitor",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906611+00:00"
+  },
+  {
+    "id": "e0281",
+    "sentence": "That\u2019s an ominous sign for this fall\u2019s midterm elections, as socialist ideas increasingly vie for mainstream prominence.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906636+00:00"
+  },
+  {
+    "id": "e0282",
+    "sentence": "Milo Yiannopoulos \u201coverstayed his welcome,\u201d DHS says.",
+    "outlet": "Salon",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906662+00:00"
+  },
+  {
+    "id": "e0283",
+    "sentence": "Karina becomes a Pacific hurricane well away from land and is forecast to become a major storm.",
+    "outlet": "PBSNewsHour",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906686+00:00"
+  },
+  {
+    "id": "e0284",
+    "sentence": "During an appearance on NBC's \"Meet the Press,\" Rep.",
+    "outlet": "Breitbart",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906710+00:00"
+  },
+  {
+    "id": "e0285",
+    "sentence": "Test your wits on the Slate Quiz for Aug.",
+    "outlet": "Slate",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906733+00:00"
+  },
+  {
+    "id": "e0286",
+    "sentence": "Over a 10-day period, the Trump administration sent more than 100 deportees from Afghanistan, Cuba and other nations to eight countries across Africa, according to internal government documents obtained by CBS News.",
+    "outlet": "CBSNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906759+00:00"
+  },
+  {
+    "id": "e0287",
+    "sentence": "AI could be the greatest thing to ever happen to us.",
+    "outlet": "DailyWire",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906783+00:00"
+  },
+  {
+    "id": "e0288",
+    "sentence": "What to Read to Wake Up Your Brain.",
+    "outlet": "TheAtlantic",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906807+00:00"
+  },
+  {
+    "id": "e0289",
+    "sentence": "WATCH:  Why 1 man is serenading animals across the globe.",
+    "outlet": "ABCNews",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906831+00:00"
+  },
+  {
+    "id": "e0290",
+    "sentence": "Angie Nixon, Abdul El-Sayed and James Talarico are weaving faith into their Senate campaigns, drawing comparisons to Jesus and echoing the Moral Majority.",
+    "outlet": "FoxNews",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906856+00:00"
+  },
+  {
+    "id": "e0291",
+    "sentence": "The Florida GOP\u2019s Red Scare Is Losing Steam.",
+    "outlet": "MotherJones",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906881+00:00"
+  },
+  {
+    "id": "e0292",
+    "sentence": "The annual \"anything goes\" performing arts festival featured more than 4,200 performances this year.",
+    "outlet": "NPR",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906905+00:00"
+  },
+  {
+    "id": "e0293",
+    "sentence": "But its broader crime picture has not improved nearly as dramatically.",
+    "outlet": "NYPost",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906930+00:00"
+  },
+  {
+    "id": "e0294",
+    "sentence": "These entrepreneurs came to the Brigham Young University professor with the well-meaning goal of \u201csolving\u201d loneliness; they believed their app or company could help consumers build genuine connections, and wanted Holt-Lunstad\u2019s opinion on this feature or that business tactic.",
+    "outlet": "Vox",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906959+00:00"
+  },
+  {
+    "id": "e0295",
+    "sentence": "Seth Moulton (D-Mass.) in a primary race for his seat in the upper chamber, according to a new poll.",
+    "outlet": "TheHill",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.906985+00:00"
+  },
+  {
+    "id": "e0296",
+    "sentence": "The EU lacks a political class willing to let go of its \u2018regulate first, ask questions later\u2019 attitude toward tech innovation.",
+    "outlet": "NationalReview",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.907012+00:00"
+  },
+  {
+    "id": "e0297",
+    "sentence": "Trump Officials Spell Out Why Trump Is Oh So Fixated On His 'Legacy'.",
+    "outlet": "HuffPost",
+    "lean": "left",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.907037+00:00"
+  },
+  {
+    "id": "e0298",
+    "sentence": "Patel to be replaced by Tugendhat as shadow foreign secretary.",
+    "outlet": "BBC",
+    "lean": "center",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.907061+00:00"
+  },
+  {
+    "id": "e0299",
+    "sentence": "Octogenarian Ed Markey\u2019s progressive credentials outweigh age concerns in Massachusetts.",
+    "outlet": "WashingtonExaminer",
+    "lean": "right",
+    "labels": null,
+    "labeled": false,
+    "created_at": "2026-08-31T11:26:11.907088+00:00"
+  }
+]

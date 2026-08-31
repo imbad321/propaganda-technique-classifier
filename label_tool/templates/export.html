@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Export{% endblock %}
+{% block content %}
+
+<section class="card">
+  <h2>Export to bias_check_set.jsonl</h2>
+  <p>{{ stats.labeled }} of {{ stats.total }} collected sentences are labeled and ready to export.
+     Unlabeled entries are skipped.</p>
+  <form method="post">
+    <button type="submit" {% if stats.labeled == 0 %}disabled{% endif %}>Export {{ stats.labeled }} labeled sentence{{ '' if stats.labeled == 1 else 's' }}</button>
+  </form>
+
+  {% if result %}
+  <div class="flash flash-ok">
+    Wrote {{ result.count }} labeled sentences to <code>{{ result.path }}</code>.
+  </div>
+  <table class="lean-table">
+    <thead><tr><th>Lean</th><th>Count</th></tr></thead>
+    <tbody>
+      {% for lean, count in result.by_lean.items() %}
+      <tr><td>{{ lean }}</td><td>{{ count }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <p class="hint">Run <code>python evaluate.py</code> from the project root now to get the per-lean F1 breakdown.</p>
+  {% endif %}
+</section>
+
+{% endblock %}

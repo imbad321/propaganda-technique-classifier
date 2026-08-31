@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Propaganda Technique Detector</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --border: rgba(11,11,11,0.10);
+    --accent: #2a78d6;
+    --accent-2: #eb6834;
+    --accent-3: #1baf7a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --border: rgba(255,255,255,0.10);
+      --accent: #3987e5;
+      --accent-2: #d95926;
+      --accent-3: #199e70;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.4rem; }
+  .tagline { color: var(--ink-2); font-size: 1.05rem; max-width: 620px; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.3rem; margin: 3rem 0 1rem; border-top: 1px solid var(--border); padding-top: 2rem; }
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 2rem; }
+  p { color: var(--ink-2); }
+  .links { display: flex; gap: 1rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+  .links a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.55rem 1.1rem; border-radius: 8px;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--ink); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  }
+  .links a:hover { border-color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 1rem 0; }
+  th, td { text-align: left; padding: 0.5rem 0.7rem; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; }
+  td:not(:first-child), th:not(:first-child) { text-align: right; font-variant-numeric: tabular-nums; }
+  code {
+    background: rgba(127,127,127,0.15); padding: 0.1rem 0.4rem; border-radius: 4px;
+    font-size: 0.88em;
+  }
+  img { max-width: 100%; border-radius: 10px; border: 1px solid var(--border); margin: 1rem 0 2rem; display: block; }
+  .label-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 0.75rem; margin: 1rem 0;
+  }
+  .label-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+  }
+  .label-card b { font-size: 0.92rem; }
+  .label-card p { margin: 0.3rem 0 0; font-size: 0.83rem; }
+  .callout {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.25rem 1.5rem; margin: 1.25rem 0;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  ul { color: var(--ink-2); padding-left: 1.2rem; }
+  li { margin-bottom: 0.5rem; }
+  footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Propaganda Technique Detector</h1>
+  <p class="tagline">
+    A multi-label classifier for six persuasion techniques, built with an explicit
+    methodology for catching source bias - not just trained and reported, but
+    checked.
+  </p>
+
+  <div class="links">
+    <a href="https://github.com/imbad321/propaganda-detector">Source on GitHub</a>
+    <a href="https://github.com/imbad321/propaganda-detector#readme">Full README</a>
+  </div>
+
+  <h2>The problem</h2>
+  <p>
+    Most propaganda-detection projects train on which outlet published a sentence
+    rather than what the sentence says, which just teaches a model to fingerprint a
+    publication's writing style. I trained only on
+    <a href="https://zenodo.org/records/3952415">SemEval-2020 Task 11</a>, where
+    technique spans were annotated by humans reading the text itself, and then built
+    a second, independent check specifically to verify the model actually behaves
+    consistently across outlets of different political lean rather than assuming it.
+  </p>
+
+  <h2>Labels</h2>
+  <div class="label-grid">
+    <div class="label-card"><b>loaded_language</b><p>Emotionally charged word choice meant to influence, not inform</p></div>
+    <div class="label-card"><b>name_calling</b><p>Attacking a person/group with a label instead of their argument</p></div>
+    <div class="label-card"><b>exaggeration_minimization</b><p>Overstating or understating scale or importance</p></div>
+    <div class="label-card"><b>appeal_to_fear</b><p>Framing built to provoke alarm rather than present evidence</p></div>
+    <div class="label-card"><b>unsupported_claim</b><p>An assertion presented as fact with no evidence given</p></div>
+    <div class="label-card"><b>factual_neutral</b><p>Verifiable information with no rhetorical framing</p></div>
+  </div>
+
+  <h2>Results</h2>
+  <p>Seven training configurations, run to actually understand what moves the numbers rather than just report the best one.</p>
+
+  <img src="images/overall_f1.png" alt="Overall macro F1 across all seven configs">
+  <img src="images/per_lean_f1.png" alt="Bias-check macro F1 per outlet-lean bucket">
+  <img src="images/effectiveness_score.png" alt="Effectiveness score across all seven configs">
+
+  <table>
+    <thead><tr><th>Config</th><th>Test F1</th><th>Bias-check F1</th><th>Max gap</th><th>Score</th></tr></thead>
+    <tbody>
+      <tr><td>8ep unweighted (baseline)</td><td>0.406</td><td>0.282</td><td>0.168</td><td>0.114</td></tr>
+      <tr><td>20ep unweighted</td><td>0.427</td><td>0.264</td><td>0.177</td><td>0.087</td></tr>
+      <tr><td><b>8ep class-weighted</b></td><td>0.448</td><td>0.336</td><td>0.133</td><td><b>0.203</b></td></tr>
+      <tr><td>8ep class-weighted + tuned thresholds</td><td>0.461</td><td>0.327</td><td>0.140</td><td>0.186</td></tr>
+      <tr><td>roberta 8ep class-weighted</td><td>0.506</td><td>0.319</td><td>0.132</td><td>0.186</td></tr>
+      <tr><td>8ep class-weighted + BASIL</td><td>0.433</td><td>0.290</td><td>0.112</td><td>0.178</td></tr>
+      <tr><td>roberta 8ep class-weighted + BASIL</td><td>0.473</td><td>0.311</td><td>0.143</td><td>0.169</td></tr>
+    </tbody>
+  </table>
+
+  <div class="callout">
+    <p><b>The effectiveness score</b> is bias-check macro F1 minus the max gap between
+    lean buckets - a model can't score well by being accurate but unevenly so across
+    outlet leans. It's computed automatically by <code>evaluate.py</code>.</p>
+  </div>
+
+  <h2>What I actually learned</h2>
+  <ul>
+    <li><b>2.5x the training epochs barely moved test F1 and made the bias-check numbers worse</b> - more training wasn't the fix for the rare-label weakness or the lean gap.</li>
+    <li><b>Class-weighted loss was the single biggest win</b>, on every axis at once, including narrowing the lean gap from 0.168 to 0.133.</li>
+    <li><b>A bigger base model bought real accuracy but didn't move the fairness gap at all</b> - model capacity isn't the lever for that specific problem.</li>
+    <li><b>Adding ~7,700 sentences from BASIL narrowed the gap furthest of anything tried, but cost raw accuracy</b> - its labels come from a different task and only cover 2 of the 6 labels.</li>
+    <li><b>Combining the bigger model and the extra data didn't stack the gains</b> - it landed below either improvement alone.</li>
+    <li>By the effectiveness score, plain 8-epoch class-weighted distilbert is still the best model trained here.</li>
+  </ul>
+
+  <h2>Checking my own labels for bias</h2>
+  <p>
+    The bias-check ground truth came from one person's judgment. To sanity-check it,
+    an LLM independently relabeled the same 150 sentences blind - sentence text only,
+    no outlet, no lean - against the same rubric. Mean per-label Cohen's kappa:
+    <b>0.426</b> ("moderate" agreement), with real variation by label -
+    <code>name_calling</code> and <code>appeal_to_fear</code> agreed well,
+    <code>exaggeration_minimization</code> barely agreed at all. That's a real signal
+    about which labels are harder to apply consistently, not just a labeling-effort
+    problem, and it means the bias-check numbers above should be read with that noise
+    in mind.
+  </p>
+
+  <h2>Known limitations</h2>
+  <ul>
+    <li>The model is undertrained for production use - 8 epochs on ~12.6k sentences from essentially one dataset.</li>
+    <li>Base-model pretraining bias is out of scope - I have no practical way to inspect or retrain <code>distilbert-base-uncased</code>'s own training corpus, and SemEval's released files strip outlet metadata so I can't audit that source either.</li>
+    <li>150 sentences (50/lean) in the bias-check set is a sanity check, not a statistically powered study.</li>
+    <li>Closing the gap further needs more labeled data on this exact taxonomy - epochs, threshold tuning, and base model size all plateaued quickly.</li>
+  </ul>
+
+  <footer>
+    Full write-up, setup instructions, and all code: <a href="https://github.com/imbad321/propaganda-detector" style="color:inherit">github.com/imbad321/propaganda-detector</a>
+  </footer>
+</main>
+</body>
+</html>

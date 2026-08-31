@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}All entries{% endblock %}
+{% block content %}
+
+<section class="card">
+  <h2>All entries ({{ entries|length }})</h2>
+  <table class="entries-table">
+    <thead>
+      <tr><th>ID</th><th>Sentence</th><th>Outlet</th><th>Lean</th><th>Labels</th><th></th></tr>
+    </thead>
+    <tbody>
+      {% for e in entries %}
+      <tr class="{{ 'is-labeled' if e.labeled else 'is-unlabeled' }}">
+        <td>{{ e.id }}</td>
+        <td class="sentence-cell">{{ e.sentence }}</td>
+        <td>{{ e.outlet }}</td>
+        <td>{{ e.lean }}</td>
+        <td>
+          {% if e.labeled %}
+            {% for label in labels %}{% if e.labels[loop.index0] == 1 %}<span class="tag">{{ label.replace('_',' ') }}</span>{% endif %}{% endfor %}
+            {% if e.labels == [0,0,0,0,0,0] %}<span class="tag tag-muted">none</span>{% endif %}
+          {% else %}
+            <span class="tag tag-muted">unlabeled</span>
+          {% endif %}
+        </td>
+        <td>
+          <a href="{{ url_for('label_entry', entry_id=e.id) }}">{{ 'relabel' if e.labeled else 'label' }}</a>
+          <form method="post" action="{{ url_for('delete_entry', entry_id=e.id) }}" onsubmit="return confirm('Delete this entry?');" style="display:inline">
+            <button type="submit" class="link-btn">delete</button>
+          </form>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+{% endblock %}

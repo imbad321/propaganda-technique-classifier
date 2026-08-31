@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# downloaded/generated data - regenerate via data/prepare_semeval.py
+data/raw/
+data/processed/
+data/bias_check/hidden_mapping.json
+
+# trained model weights - regenerate via train.py (too large for git anyway)
+model/*
+!model/.gitkeep
+model_*/

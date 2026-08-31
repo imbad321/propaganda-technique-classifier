@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Propaganda Technique Detector</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main>
+    <h1>Propaganda Technique Detector</h1>
+    <p class="subtitle">
+      Paste in an article or any block of text. Each sentence is checked for
+      six persuasion techniques - highlighted sentences use at least one of
+      them; unhighlighted sentences read as neutral, factual statements.
+    </p>
+
+    <textarea id="input-text" rows="10" placeholder="Paste article text here..."></textarea>
+    <button id="analyze-btn">Analyze</button>
+
+    <div id="summary" class="summary" hidden></div>
+
+    <div id="output" class="output"></div>
+
+    <div class="legend">
+      {% for name, description in labels.items() %}
+      <div class="legend-item">
+        <span class="swatch" data-label="{{ name }}"></span>
+        <span class="legend-text"><strong>{{ name.replace('_', ' ') }}</strong> - {{ description }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </main>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

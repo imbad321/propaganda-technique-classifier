@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Label{% endblock %}
+{% block content %}
+
+<div class="progress-bar">
+  <div class="progress-fill" style="width: {{ (stats.labeled / stats.total * 100) if stats.total else 0 }}%"></div>
+</div>
+<p class="progress-text">{{ stats.labeled }} / {{ stats.total }} labeled</p>
+
+{% if entry is none %}
+<section class="card">
+  <h2>All done</h2>
+  <p>Every collected sentence has been labeled. Add more on the <a href="{{ url_for('add') }}">Add</a> page,
+     or head to <a href="{{ url_for('export') }}">Export</a> to write out bias_check_set.jsonl.</p>
+</section>
+{% else %}
+<section class="card label-card">
+  <p class="sentence-text">{{ entry.sentence }}</p>
+
+  <form method="post" id="label-form" action="{{ url_for('label_entry', entry_id=entry.id) }}">
+    <div class="label-pills">
+      {% for label in labels %}
+      <label class="pill" data-label="{{ label }}">
+        <input type="checkbox" name="{{ label }}" {% if entry.labels and entry.labels[loop.index0] == 1 %}checked{% endif %}>
+        <span class="pill-key">{{ loop.index }}</span>
+        <span class="pill-name">{{ label.replace('_', ' ') }}</span>
+      </label>
+      {% endfor %}
+    </div>
+    <p class="hint" id="label-desc"></p>
+    <button type="submit">Save &amp; next <span class="key-hint">(Enter)</span></button>
+  </form>
+</section>
+<p class="hint">Keyboard: press 1-{{ labels|length }} to toggle a label, Enter to save and move on. You are not shown the outlet or lean for this sentence - that's intentional.</p>
+{% endif %}
+
+<script>
+  const DESCRIPTIONS = {{ descriptions|tojson }};
+</script>
+<script src="{{ url_for('static', filename='label.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Add sentences{% endblock %}
+{% block content %}
+
+<div class="progress-bar">
+  <div class="progress-fill" style="width: {{ (stats.labeled / stats.total * 100) if stats.total else 0 }}%"></div>
+</div>
+<p class="progress-text">
+  {{ stats.total }} sentence{{ '' if stats.total == 1 else 's' }} collected,
+  {{ stats.labeled }} labeled
+  {% if stats.total < 150 %}<span class="hint">- aim for 150-200 total</span>{% endif %}
+</p>
+
+{% if stats.by_lean %}
+<table class="lean-table">
+  <thead><tr><th>Lean</th><th>Total</th><th>Labeled</th></tr></thead>
+  <tbody>
+    {% for lean, counts in stats.by_lean.items() %}
+    <tr><td>{{ lean }}</td><td>{{ counts.total }}</td><td>{{ counts.labeled }}</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<p class="hint">Aim for roughly even totals across leans - that balance is what makes the per-lean F1 comparison meaningful later.</p>
+{% endif %}
+
+{% if message %}<div class="flash flash-ok">{{ message }}</div>{% endif %}
+{% if error %}<div class="flash flash-error">{{ error }}</div>{% endif %}
+
+<section class="card">
+  <h2>Add one sentence</h2>
+  <form method="post">
+    <input type="hidden" name="mode" value="single">
+    <label>Sentence
+      <textarea name="sentence" rows="3" required placeholder="Paste a single sentence pulled from a real article..."></textarea>
+    </label>
+    <div class="row">
+      <label class="grow">Outlet
+        <input type="text" name="outlet" required placeholder="e.g. Reuters">
+      </label>
+      <label class="grow">Lean
+        <input type="text" name="lean" required list="lean-options" placeholder="e.g. center">
+        <datalist id="lean-options">
+          <option value="left">
+          <option value="center-left">
+          <option value="center">
+          <option value="center-right">
+          <option value="right">
+          {% for lean in leans %}<option value="{{ lean }}">{% endfor %}
+        </datalist>
+      </label>
+    </div>
+    <button type="submit">Add sentence</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Bulk import (CSV)</h2>
+  <p class="hint">One row per line: <code>sentence,outlet,lean</code>. Quote the sentence if it contains a comma (standard CSV escaping).</p>
+  <form method="post">
+    <input type="hidden" name="mode" value="bulk">
+    <textarea name="bulk_text" rows="8" placeholder="&quot;The bill passed, 218-210.&quot;,Reuters,center
+The corrupt elites are destroying everything.,ExampleOutlet,left"></textarea>
+    <button type="submit">Import rows</button>
+  </form>
+</section>
+
+{% endblock %}

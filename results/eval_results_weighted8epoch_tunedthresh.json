@@ -1,0 +1,57 @@
+{
+  "n_examples": 1400,
+  "f1_micro": 0.7055931161647203,
+  "f1_macro": 0.4614309246245383,
+  "per_label_f1": {
+    "loaded_language": 0.5352112676056338,
+    "name_calling": 0.4835164835164835,
+    "exaggeration_minimization": 0.2807017543859649,
+    "appeal_to_fear": 0.24324324324324326,
+    "unsupported_claim": 0.3655030800821355,
+    "factual_neutral": 0.8604097189137685
+  },
+  "confusion": {
+    "exaggeration_minimization": {
+      "factual_neutral": 11,
+      "loaded_language": 15,
+      "unsupported_claim": 13,
+      "appeal_to_fear": 5,
+      "name_calling": 4
+    },
+    "loaded_language": {
+      "exaggeration_minimization": 11,
+      "unsupported_claim": 60,
+      "factual_neutral": 78,
+      "appeal_to_fear": 14,
+      "name_calling": 30
+    },
+    "unsupported_claim": {
+      "factual_neutral": 127,
+      "loaded_language": 51,
+      "name_calling": 30,
+      "exaggeration_minimization": 6,
+      "appeal_to_fear": 13
+    },
+    "name_calling": {
+      "loaded_language": 38,
+      "unsupported_claim": 45,
+      "factual_neutral": 29,
+      "appeal_to_fear": 3,
+      "exaggeration_minimization": 4
+    },
+    "factual_neutral": {
+      "unsupported_claim": 104,
+      "name_calling": 24,
+      "appeal_to_fear": 20,
+      "loaded_language": 39,
+      "exaggeration_minimization": 2
+    },
+    "appeal_to_fear": {
+      "factual_neutral": 8,
+      "loaded_language": 7,
+      "name_calling": 2,
+      "unsupported_claim": 12,
+      "exaggeration_minimization": 1
+    }
+  }
+}
