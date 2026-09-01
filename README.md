@@ -10,9 +10,19 @@ technique. I wanted to build something that judges text on its content, and then
 actually go verify that it does that, rather than assume it.
 
 I'm Ibad Khan, a math and comp sci major, and this was my attempt at doing that
-properly: a multi-label sentence classifier for six persuasion techniques, a
-purpose-built methodology for catching source bias, and a small Flask app to serve
-it.
+properly: a multi-label sentence classifier for six persuasion techniques, and a
+purpose-built methodology for catching source bias in it.
+
+That methodology - "did this classifier learn the task, or did it learn a proxy for
+the task instead" - turned out to be the more general, more reusable half of the
+project, so it now lives as its own small library, **[`bias_audit/`](bias_audit/)**:
+a `pip install`-able toolkit that takes *any* text classifier plus a labeled,
+group-tagged sentence set and reports an effectiveness score, a per-group F1
+breakdown, and a kappa-based check on your own ground truth. This repo is now two
+things: `bias_audit/`, the tool, and everything else here - the propaganda-technique
+classifier, its data pipeline, and the Flask app - as `bias_audit`'s worked example
+against a real model. See [`bias_audit/README.md`](bias_audit/README.md) for the
+library on its own; the rest of this README shows it applied end to end.
 
 ## Labels
 
@@ -45,9 +55,15 @@ hidden). If the trained model performs very differently across the three lean
 buckets, that's evidence it picked up something about outlet style rather than the
 technique itself.
 
+Scoring that comparison - per-group F1, the gap between groups, a single
+gap-penalized effectiveness score - is exactly the general-purpose part
+[`bias_audit`](bias_audit/) does; `evaluate.py` below is `bias_audit` pointed at this
+model with `lean` as the group.
+
 ## Project structure
 
 ```
+bias_audit/                  Reusable bias-audit toolkit (its own package - see its README)
 labels.py                    Label schema + SemEval technique -> label mapping
 data/
   prepare_semeval.py         Downloads SemEval-2020 Task 11, builds train/val/test
@@ -56,7 +72,7 @@ data/
   bias_check/                entries.json, bias_check_set.jsonl, agreement.py
 label_tool/                  Standalone app: add + blind-label bias-check sentences
 train.py                     Fine-tunes the transformer
-evaluate.py                  Test-split F1 + per-lean bias-check F1 + effectiveness score
+evaluate.py                  Test-split F1, then bias_audit.audit() for the per-lean breakdown
 tune_thresholds.py           Per-label decision threshold tuning (no retraining)
 inference.py                 Sentence splitting + batch prediction, used by app.py
 app.py                       Flask app (GET /, POST /predict)
@@ -64,6 +80,10 @@ templates/, static/          Frontend for the app
 results/                     Every experiment's saved metrics
 tests/                       Unit tests (labels, inference, evaluate, app routes)
 ```
+
+`requirements.txt` installs `bias_audit/` in editable mode (`-e ./bias_audit`), so
+`evaluate.py` and `data/bias_check/agreement.py` import it like any other dependency -
+see [Setup](#setup).
 
 ## Setup
 
@@ -150,10 +170,12 @@ base model.
 python evaluate.py
 ```
 
-Reports micro/macro F1 on the held-out test split, the same broken down by
-outlet-lean bucket on the bias-check set, and an **effectiveness score**
-(bias-check macro F1 minus the max gap between lean buckets) - a single number that
-can't be gamed by being accurate but unevenly so.
+Reports micro/macro F1 on the held-out test split directly, then wraps the trained
+model in a small `bias_audit.Classifier` adapter and hands it to
+[`bias_audit.audit()`](bias_audit/) along with the bias-check set (`lean` as the
+group), which reports the same broken down by outlet-lean bucket plus an
+**effectiveness score** (bias-check macro F1 minus the max gap between lean buckets) -
+a single number that can't be gamed by being accurate but unevenly so.
 
 ## Results
 
@@ -240,7 +262,9 @@ at all instead of trusting the SemEval split alone.
 Since the bias-check ground truth came from one person's judgment (mine), I had an
 LLM (Claude) independently relabel the same 150 sentences blind - sentence text
 only, no outlet, no lean, no access to my labels - against the same rubric, as a
-second annotator. Mean per-label Cohen's kappa: **0.426** ("moderate" agreement on
+second annotator. `data/bias_check/agreement.py` runs
+[`bias_audit.label_reliability()`](bias_audit/) on the two label sets. Mean per-label
+Cohen's kappa: **0.426** ("moderate" agreement on
 the Landis-Koch scale), with real variation by label - `name_calling` and
 `appeal_to_fear` agreed well, `exaggeration_minimization` barely agreed at all
 (kappa 0.157, a 6x difference in how often each of us flagged it). That's a real
@@ -280,12 +304,16 @@ pip install -r requirements-dev.txt
 pytest
 ```
 
-Unit tests cover the parts of the pipeline that don't require a trained model or GPU: the
-label schema and SemEval technique mapping, sentence splitting and threshold loading in
-`inference.py`, the confusion-matrix and JSONL-loading helpers in `evaluate.py`, and the
-Flask routes in `app.py` (with the model mocked out). They run in CI on every push via
-`.github/workflows/ci.yml`. Training and evaluation against the real model are exercised
-manually, not in CI, since the trained weights are too large to check in.
+`pytest` (configured via `pytest.ini`) runs two suites together: `tests/`, covering the
+parts of this project's pipeline that don't require a trained model or GPU (label
+schema and SemEval technique mapping, sentence splitting and threshold loading in
+`inference.py`, JSONL loading in `evaluate.py`, and the Flask routes in `app.py` with
+the model mocked out); and `bias_audit/tests/`, covering the library itself
+(effectiveness-score math, per-group F1 breakdown, kappa-based reliability, JSONL
+loading) against synthetic data, independent of any real classifier. Both run in CI on
+every push via `.github/workflows/ci.yml`. Training and evaluation against the real
+model are exercised manually, not in CI, since the trained weights are too large to
+check in.
 
 ## Future: Chrome extension
 

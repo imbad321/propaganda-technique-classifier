@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bias-audit"
+version = "0.1.0"
+description = "Audit whether a text classifier learned the task or learned a spurious group signal (e.g. source style) instead."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.4",
+    "scikit-learn>=1.5.1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bias_audit"]

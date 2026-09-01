@@ -8,9 +8,9 @@ import sys
 from pathlib import Path
 
 import numpy as np
-from sklearn.metrics import cohen_kappa_score
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent))
+from bias_audit import label_reliability  # noqa: E402
 from labels import LABELS  # noqa: E402
 
 BIAS_DIR = Path(__file__).resolve().parent
@@ -29,28 +29,9 @@ def main():
     y_user = np.array([r["labels"] for r in user_rows])
     y_claude = np.array([claude_by_index[f"{i:03d}"] for i in range(len(user_rows))])
 
+    result = label_reliability(y_user, y_claude, LABELS)
     print(f"n={len(user_rows)} sentences\n")
-    print(f"{'label':<28}{'kappa':>8}{'agree%':>9}{'user_pos':>10}{'claude_pos':>11}")
-    kappas = []
-    for i, label in enumerate(LABELS):
-        u, c = y_user[:, i], y_claude[:, i]
-        agree_pct = (u == c).mean() * 100
-        if u.std() == 0 and c.std() == 0:
-            kappa = 1.0 if (u == c).all() else 0.0
-        else:
-            kappa = cohen_kappa_score(u, c)
-        kappas.append(kappa)
-        print(f"{label:<28}{kappa:>8.3f}{agree_pct:>8.1f}%{u.sum():>10}{c.sum():>11}")
-
-    print(f"\nMean per-label kappa: {np.mean(kappas):.3f}")
-
-    exact_match = (y_user == y_claude).all(axis=1).mean() * 100
-    print(f"Exact full-vector agreement (all 6 labels match): {exact_match:.1f}%")
-
-    any_overlap = ((y_user + y_claude) > 0).sum(axis=1)
-    both = ((y_user == 1) & (y_claude == 1)).sum(axis=1)
-    jaccard = np.divide(both, any_overlap, out=np.ones_like(both, dtype=float), where=any_overlap != 0)
-    print(f"Mean per-sentence Jaccard overlap (active labels only): {jaccard.mean():.3f}")
+    print(result.summary())
 
 
 if __name__ == "__main__":

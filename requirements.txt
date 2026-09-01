@@ -1,3 +1,4 @@
+-e ./bias_audit
 flask==3.0.3
 transformers==4.44.2
 accelerate==0.26.0
