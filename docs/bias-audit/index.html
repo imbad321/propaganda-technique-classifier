@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>bias_audit</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --border: rgba(11,11,11,0.10);
+    --accent: #2a78d6;
+    --accent-2: #eb6834;
+    --accent-3: #1baf7a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #0d0d0d;
+      --surface: #1a1a19;
+      --ink: #ffffff;
+      --ink-2: #c3c2b7;
+      --muted: #898781;
+      --border: rgba(255,255,255,0.10);
+      --accent: #3987e5;
+      --accent-2: #d95926;
+      --accent-3: #199e70;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem 5rem; }
+  h1 { font-size: 2rem; margin: 0 0 0.4rem; }
+  .tagline { color: var(--ink-2); font-size: 1.05rem; max-width: 620px; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.3rem; margin: 3rem 0 1rem; border-top: 1px solid var(--border); padding-top: 2rem; }
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 2rem; }
+  p { color: var(--ink-2); }
+  .links { display: flex; gap: 1rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+  .links a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    padding: 0.55rem 1.1rem; border-radius: 8px;
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--ink); text-decoration: none; font-size: 0.9rem; font-weight: 600;
+  }
+  .links a:hover { border-color: var(--accent); }
+  code {
+    background: rgba(127,127,127,0.15); padding: 0.1rem 0.4rem; border-radius: 4px;
+    font-size: 0.88em;
+  }
+  pre {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1rem 1.25rem; overflow-x: auto; margin: 1rem 0;
+  }
+  pre code { background: none; padding: 0; font-size: 0.85rem; color: var(--ink); }
+  .callout {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.25rem 1.5rem; margin: 1.25rem 0;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  .api-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0.75rem; margin: 1rem 0;
+  }
+  .api-card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+  }
+  .api-card code { display: block; margin-bottom: 0.3rem; font-size: 0.85rem; }
+  .api-card p { margin: 0; font-size: 0.83rem; }
+  ul { color: var(--ink-2); padding-left: 1.2rem; }
+  li { margin-bottom: 0.5rem; }
+  footer { margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>bias_audit</h1>
+  <p class="tagline">
+    A small library for one specific question: did your text classifier learn the
+    task, or did it learn a proxy for the task instead - the outlet a sentence came
+    from, the register of the writing, anything correlated with the label but not
+    actually it?
+  </p>
+
+  <div class="links">
+    <a href="../">&larr; Project home</a>
+    <a href="https://github.com/imbad321/propaganda-technique-classifier/tree/main/bias_audit">Source on GitHub</a>
+    <a href="https://github.com/imbad321/propaganda-technique-classifier/blob/main/bias_audit/README.md">Full README</a>
+  </div>
+
+  <h2>Where this fits</h2>
+  <p>
+    This is a narrower, more practical cousin of ideas from the shortcut-learning /
+    spurious-correlation literature (group-robustness work like Sagawa et al.'s
+    group-DRO, behavioral testing like Ribeiro et al.'s CheckList) and of general
+    fairness toolkits (Fairlearn, AIF360, Aequitas). Those are broader - built mostly
+    around tabular data and demographic-parity style metrics. <code>bias_audit</code>
+    is aimed squarely at multi-label text classifiers and the specific failure mode of
+    "the model fingerprinted the source instead of reading the content," with two
+    things bundled in that general toolkits don't hand you out of the box: a single
+    gap-penalized <b>effectiveness score</b>, and a <b>label-reliability check</b> for
+    your own ground truth.
+  </p>
+
+  <h2>Install</h2>
+  <pre><code>pip install -e ./bias_audit</code></pre>
+  <p>Not published to PyPI - clone the <a href="https://github.com/imbad321/propaganda-technique-classifier">repo</a> and install the subfolder editable, as its worked example already does.</p>
+
+  <h2>Usage</h2>
+  <pre><code>from bias_audit import Classifier, LabeledExample, audit, label_reliability
+
+# 1. Wrap your model so it can score raw text against your label set.
+class MyClassifier:
+    def predict_proba(self, texts):
+        ...  # returns an (n_texts, n_labels) array of scores in [0, 1]
+
+# 2. Build a labeled, group-tagged evaluation set. `group` is any categorical
+#    split you're worried the model might be keying off of instead of content -
+#    outlet lean, dialect, age bracket, whatever applies to your problem.
+examples = [
+    LabeledExample(text="...", labels=[1, 0, 0], group="left"),
+    LabeledExample(text="...", labels=[0, 1, 0], group="right"),
+]
+
+# 3. Audit it.
+report = audit(MyClassifier(), examples, label_names=["a", "b", "c"])
+print(report.summary())
+print(report.effectiveness_score)   # overall F1_macro minus the max group-to-group gap
+
+# 4. Optional: check your own ground truth against a second labeler first -
+#    a low kappa on one label means that label's ground truth is the noisy
+#    part, not necessarily the model.
+reliability = label_reliability(your_labels, second_labeler_labels, label_names=["a", "b", "c"])
+print(reliability.summary())</code></pre>
+
+  <h2>API</h2>
+  <div class="api-grid">
+    <div class="api-card"><code>LabeledExample(text, labels, group)</code><p>One example.</p></div>
+    <div class="api-card"><code>Classifier</code><p>A Protocol with one method: <code>predict_proba(texts) -&gt; np.ndarray</code>. Wrap any model in it.</p></div>
+    <div class="api-card"><code>audit(classifier, examples, label_names, thresholds=0.5)</code><p>Main entry point. Returns an <code>AuditReport</code>: overall + per-group F1, max group gap, effectiveness score.</p></div>
+    <div class="api-card"><code>evaluate_predictions(y_true, y_pred, label_names)</code><p>Lower-level piece if you already have predictions.</p></div>
+    <div class="api-card"><code>label_reliability(labels_a, labels_b, label_names)</code><p>Per-label Cohen's kappa, exact-match rate, mean Jaccard between two labelers.</p></div>
+    <div class="api-card"><code>load_labeled_jsonl(path, ...)</code><p>Reads a JSONL file straight into <code>LabeledExample</code>s.</p></div>
+  </div>
+
+  <h2>Worked example</h2>
+  <p>
+    Extracted from <a href="https://github.com/imbad321/propaganda-technique-classifier">propaganda-technique-classifier</a>,
+    a multi-label propaganda-technique classifier - it's the model this library was
+    built to audit. Applied there: effectiveness score <b>0.203</b> on a 150-sentence,
+    hand-labeled, source-blind evaluation set spanning left/center/right-leaning
+    outlets, plus a <b>0.426</b> mean Cohen's kappa checking the ground truth itself
+    against a second, independent labeling. See the
+    <a href="../">project page</a> for the full write-up.
+  </p>
+
+  <div class="callout">
+    <p>The core idea here isn't new - it's a narrow, practical slice of an active
+    research area. What's less common is finding it packaged as reusable code instead
+    of a one-off number in a results table.</p>
+  </div>
+
+  <footer>
+    Part of <a href="https://github.com/imbad321/propaganda-technique-classifier" style="color:inherit">propaganda-technique-classifier</a>.
+  </footer>
+</main>
+</body>
+</html>

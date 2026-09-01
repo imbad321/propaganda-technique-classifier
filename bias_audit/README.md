@@ -17,7 +17,8 @@ score**, and a **label-reliability check** for your own ground truth.
 
 It was extracted from [`propaganda-technique-classifier`](..), which is its worked
 example - see that repo's README for `bias-audit` applied end to end against a real
-model.
+model, or the [project page](https://imbad321.github.io/propaganda-technique-classifier/bias-audit/)
+for this same README in page form.
 
 ## Install
 

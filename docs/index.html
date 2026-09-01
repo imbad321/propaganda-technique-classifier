@@ -95,7 +95,7 @@
   <div class="links">
     <a href="https://github.com/imbad321/propaganda-technique-classifier">Source on GitHub</a>
     <a href="https://github.com/imbad321/propaganda-technique-classifier#readme">Full README</a>
-    <a href="https://github.com/imbad321/propaganda-technique-classifier/tree/main/bias_audit">bias_audit toolkit</a>
+    <a href="bias-audit/">bias_audit toolkit page</a>
   </div>
 
   <h2>bias_audit: the reusable part</h2>
@@ -103,13 +103,14 @@
     The question underneath this whole project - "did the model learn the task, or
     did it learn a proxy for the task instead" - turned out to be more general than
     one classifier, so it's now its own small, <code>pip install</code>-able library:
-    <a href="https://github.com/imbad321/propaganda-technique-classifier/tree/main/bias_audit"><code>bias_audit</code></a>.
-    Give it any classifier (wrapped in a one-method <code>predict_proba</code>
-    adapter) and a labeled, group-tagged evaluation set, and it reports a per-group
-    F1 breakdown, a gap-penalized effectiveness score, and a kappa-based check on
-    your own ground truth - the same three things this page uses below, generalized
-    past outlet lean to whatever group split you're worried a model latched onto.
-    This repo is now that library plus its worked example.
+    <a href="bias-audit/"><code>bias_audit</code></a>. Give it any classifier
+    (wrapped in a one-method <code>predict_proba</code> adapter) and a labeled,
+    group-tagged evaluation set, and it reports a per-group F1 breakdown, a
+    gap-penalized effectiveness score, and a kappa-based check on your own ground
+    truth - the same three things this page uses below, generalized past outlet lean
+    to whatever group split you're worried a model latched onto. This repo is now
+    that library plus its worked example - see its <a href="bias-audit/">own
+    page</a> for the API on its own.
   </p>
 
   <h2>The problem</h2>
