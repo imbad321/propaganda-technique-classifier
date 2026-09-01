@@ -1,5 +1,7 @@
 # Propaganda Technique Detector
 
+[![CI](https://github.com/imbad321/propaganda-technique-classifier/actions/workflows/ci.yml/badge.svg)](https://github.com/imbad321/propaganda-technique-classifier/actions/workflows/ci.yml)
+
 I built this to see whether I could take a real, honest crack at a problem that most
 "propaganda detector" side projects get wrong: they train on which *outlet* published
 a sentence rather than what the sentence actually *says*, which just teaches a model
@@ -60,6 +62,7 @@ inference.py                 Sentence splitting + batch prediction, used by app.
 app.py                       Flask app (GET /, POST /predict)
 templates/, static/          Frontend for the app
 results/                     Every experiment's saved metrics
+tests/                       Unit tests (labels, inference, evaluate, app routes)
 ```
 
 ## Setup
@@ -69,6 +72,9 @@ python -m venv .venv
 source .venv/Scripts/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+`requirements.txt` is pinned to exact versions that this project is tested against. For development
+(running the test suite), use `pip install -r requirements-dev.txt` instead, which adds `pytest`.
 
 If you have an NVIDIA GPU, check `nvidia-smi` for your CUDA version and install the
 matching torch build - plain `pip install torch` gets you a CPU-only wheel on
@@ -264,6 +270,20 @@ highlighted by its top predicted label, with a summary of % flagged vs. neutral.
   {"sentence": "The bill passed 218-210.", "labels": []}
 ]
 ```
+
+## Tests
+
+```bash
+pip install -r requirements-dev.txt
+pytest
+```
+
+Unit tests cover the parts of the pipeline that don't require a trained model or GPU: the
+label schema and SemEval technique mapping, sentence splitting and threshold loading in
+`inference.py`, the confusion-matrix and JSONL-loading helpers in `evaluate.py`, and the
+Flask routes in `app.py` (with the model mocked out). They run in CI on every push via
+`.github/workflows/ci.yml`. Training and evaluation against the real model are exercised
+manually, not in CI, since the trained weights are too large to check in.
 
 ## Future: Chrome extension
 
