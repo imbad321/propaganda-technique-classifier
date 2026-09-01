@@ -23,6 +23,16 @@ def test_predict_rejects_missing_text(client):
     assert resp.status_code == 400
 
 
+def test_predict_rejects_non_string_text(client):
+    resp = client.post("/predict", json={"text": 123})
+    assert resp.status_code == 400
+
+
+def test_index_renders(client):
+    resp = client.get("/")
+    assert resp.status_code == 200
+
+
 def test_predict_returns_model_output(client, monkeypatch):
     monkeypatch.setattr(
         "inference.predict",
