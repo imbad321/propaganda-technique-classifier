@@ -261,6 +261,8 @@ python app.py
 Visit `http://127.0.0.1:5000`. Paste text, click Analyze - each sentence gets
 highlighted by its top predicted label, with a summary of % flagged vs. neutral.
 
+![Propaganda Technique Detector app: pasted text with sentences color-coded by predicted technique, and a summary line reading "5 sentences analyzed - 0% neutral, 100% flagged with at least one technique."](docs/images/app_screenshot.jpg)
+
 `POST /predict` with `{"text": "..."}` returns:
 
 ```json
