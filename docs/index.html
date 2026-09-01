@@ -88,13 +88,29 @@
   <p class="tagline">
     A multi-label classifier for six persuasion techniques, built with an explicit
     methodology for catching source bias - not just trained and reported, but
-    checked.
+    checked. That methodology is now also a standalone toolkit,
+    <code>bias_audit</code>, that works against any text classifier.
   </p>
 
   <div class="links">
     <a href="https://github.com/imbad321/propaganda-technique-classifier">Source on GitHub</a>
     <a href="https://github.com/imbad321/propaganda-technique-classifier#readme">Full README</a>
+    <a href="https://github.com/imbad321/propaganda-technique-classifier/tree/main/bias_audit">bias_audit toolkit</a>
   </div>
+
+  <h2>bias_audit: the reusable part</h2>
+  <p>
+    The question underneath this whole project - "did the model learn the task, or
+    did it learn a proxy for the task instead" - turned out to be more general than
+    one classifier, so it's now its own small, <code>pip install</code>-able library:
+    <a href="https://github.com/imbad321/propaganda-technique-classifier/tree/main/bias_audit"><code>bias_audit</code></a>.
+    Give it any classifier (wrapped in a one-method <code>predict_proba</code>
+    adapter) and a labeled, group-tagged evaluation set, and it reports a per-group
+    F1 breakdown, a gap-penalized effectiveness score, and a kappa-based check on
+    your own ground truth - the same three things this page uses below, generalized
+    past outlet lean to whatever group split you're worried a model latched onto.
+    This repo is now that library plus its worked example.
+  </p>
 
   <h2>The problem</h2>
   <p>
@@ -140,7 +156,9 @@
   <div class="callout">
     <p><b>The effectiveness score</b> is bias-check macro F1 minus the max gap between
     lean buckets - a model can't score well by being accurate but unevenly so across
-    outlet leans. It's computed automatically by <code>evaluate.py</code>.</p>
+    outlet leans. <code>evaluate.py</code> computes it by wrapping the trained model
+    in a <code>bias_audit.Classifier</code> adapter and calling
+    <code>bias_audit.audit()</code>.</p>
   </div>
 
   <h2>What I actually learned</h2>
@@ -165,6 +183,14 @@
     problem, and it means the bias-check numbers above should be read with that noise
     in mind.
   </p>
+
+  <h2>The app</h2>
+  <p>
+    A small Flask app serves the model: paste text in, each sentence gets
+    highlighted by its top predicted technique, with a summary of what fraction of
+    the input was flagged.
+  </p>
+  <img src="images/app_screenshot.jpg" alt="Propaganda Technique Detector app: pasted text with sentences color-coded by predicted technique, and a summary line reading &quot;5 sentences analyzed - 0% neutral, 100% flagged with at least one technique.&quot;">
 
   <h2>Known limitations</h2>
   <ul>
